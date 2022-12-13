@@ -6,7 +6,7 @@ import { IUser } from '../../types';
 
 type HeaderProps = {
   user: IUser;
-  received: number;
+  received: any;
   given: number;
 };
 
